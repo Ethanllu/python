@@ -1,11 +1,11 @@
 import random
 Age = random.randint(1,100)
 while True:
-    s = input("输入年龄")
+    s = input("input number:")
     try:
         guess = int(s)
     except ValueError:
-        print("inputNumber")
+        print("please input Number!")
         continue
     if guess < Age:
         print("too small")
