@@ -1,3 +1,16 @@
-prictice
-asd
-sdas
+import random
+Age = random.randint(1,100)
+while True:
+    s = input("输入年龄")
+    try:
+        guess = int(s)
+    except ValueError:
+        print("inputNumber")
+        continue
+    if guess < Age:
+        print("too small")
+    elif guess > Age:
+        print("too big")
+    else:
+        print("right")
+        break
