@@ -1,0 +1,14 @@
+{
+    "python.formatting.provider": "none",
+    "[python]": {
+        "editor.defaultFormatter": "mikoz.black-py",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "python.formatting.blackArgs": [
+        "--line-length=88"
+    ],
+    "editor.formatOnPaste": true
+}
